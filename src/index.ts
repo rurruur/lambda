@@ -1,6 +1,6 @@
 import express from 'express';
 
-const app = express();
+export const app = express();
 const PORT = 8080;
 
 app.get('/', (_, res) => {
